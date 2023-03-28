@@ -38,7 +38,7 @@ public class PositivTest {
 
     @Test
     public void shouldTest1() {
-        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Спирин Вячеслав");
+        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Васильев Александр");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79994546585");
         driver.findElement(By.cssSelector("[data-test-id=agreement")).click();
         driver.findElement(By.cssSelector("button.button")).click();
