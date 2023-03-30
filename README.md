@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/k930rguir1awcsud?svg=true)](https://ci.appveyor.com/project/n1omcvq1g4/web-interface)
+[![Java CI with Gradle](https://github.com/BerryDream7/WEB-interface/actions/workflows/gradle.yml/badge.svg)](https://github.com/BerryDream7/WEB-interface/actions/workflows/gradle.yml)
