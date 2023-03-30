@@ -6,9 +6,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-    options: info
-
+   
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 11
