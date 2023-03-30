@@ -6,6 +6,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    options: info
 
     steps:
       - uses: actions/checkout@v2
@@ -20,4 +22,3 @@ jobs:
         run: java -jar ./artifacts/app-order.jar &
       - name: Build with Gradle
         run: ./gradlew test
-        options: info;
